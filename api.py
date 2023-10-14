@@ -1,4 +1,5 @@
 import json
+import random
 from song import Song
 # from category import Category
 
@@ -38,6 +39,7 @@ class API:
             self.convert_spotify_format_to_different_format(song)
             print(song)
 
+        # self.shuffle()
         # might not need to return it if just setting it
         return self.playlist 
 
@@ -45,12 +47,23 @@ class API:
     def convert_spotify_format_to_different_format(self,song):
         position = 0
         if len(song['artists']) > 1:
-            pass
-            # TODO
-            # maybe check if first artist doesnt match like 88rising or something
-            # so it doesnt find like bibi as a feature when theres more than 2
-            # find correct artists
-            # maybe use album artists? 
+            for i in range(0,len(song['artists'])):
+                pass
+                # put these in a hash? check over them? or just use if?
+                # 88rising
+                # thefatrat
+                # lady gaga
+                # rich brian
+                # if any of those
+                #   position += 1
+                # else
+                #   break 
+
+                # TODO
+                # maybe check if first artist doesnt match like 88rising or something
+                # so it doesnt find like bibi as a feature when theres more than 2
+                # find correct artists
+                # maybe use album artists? 
 
         self.playlist.append(Song(song['uri'],song['name'],song['artists'][position],song['album']['name']).__dict__)
 
@@ -59,3 +72,7 @@ class API:
 
     def stop_song(self):
         self.sc.pause_playback()
+
+    def shuffle(self):
+        for _ in range(0,10):
+            random.shuffle(self.playlist)
