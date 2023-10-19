@@ -81,12 +81,14 @@ class GUI:
         pass
 
     def save(self):
+        # TODO only select .json
         GUI.file_path = filedialog.asksaveasfilename(initialdir='.')
         print(GUI.file_path)
         GUI.api.save_json(GUI.file_path)
 
 
     def load(self):
+        # TODO only select .json
         GUI.file_path = filedialog.askopenfilename(initialdir='.')
         print(GUI.file_path)
         GUI.api.load_json(GUI.file_path)

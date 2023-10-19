@@ -1,132 +1,132 @@
 # Artists 
 ## A
-    - Aespa {dupes}
-    - Agust D
-    - Alexa {dupes and alt versions} (extra artist check)
-    - Alice
-    - Apink
+- Aespa {dupes}
+- Agust D
+- Alexa {dupes and alt versions} (extra artist check)
+- Alice
+- Apink
 ## B
-    - Bibi (extra artist check)
-    - Billlie {dupes? instrumentals}
-    - Blackpink {dupes}
-    - BugAboo
+- Bibi (extra artist check)
+- Billlie {dupes? instrumentals}
+- Blackpink {dupes}
+- BugAboo
 ## C
-    - Cherry Bullet
-    - Chung Ha
-    - CLC
-    - Colde (Soyeon)
+- Cherry Bullet
+- Chung Ha
+- Chuu
+- CLC
+- Colde
 ## D
-    - Dreamcatcher
+- Dreamcatcher
 ## E
-    - Enhypen
-    - El7z Up
-    - Everglow (extra artist check)
-    - Exid {dupes? instrumentals}
-    - Exo
+- Enhypen
+- El7z Up
+- Everglow (extra artist check)
+- Exid {dupes? instrumentals}
+- Exo
 ## F
-    - Fromis_9
+- Fromis_9
 ## G
-    Gfriend
-    G-Idle
-    GOT the beat
+- Gfriend {dupes}
+- G-Idle {dupes also kda?}
+- GOT the beat
 ## H
-    H1-Key (maybe)
-    Huh Yunjin
-    Hwasa
-    Hyolyn (Dally)
-    Hyuna
+- Huh Yunjin
+- Hwasa
+- Hyolyn
+- Hyuna
 ## I
-    I.O.I
-    Itzy
-    IU
-    IVE
-    Iz*one
+- I.O.I
+- Itzy {dupes? instrumentals, english versions}
+- IU
+- IVE
+- Iz*one {alt versions}
 ## J
-    Jamie
-    Jennie
-    Jeon Somi
-    Jeon Soyeon
-    Jessi
-    Jihyo
-    Jisoo
-    Joy
-    Joy Yuri
+- Jamie
+- Jennie
+- Jeon Somi {dupes}
+- Jeon Soyeon
+- Jessi
+- Jihyo
+- Jini {alt version}
+- Jisoo
+- Jo Yuri
+- Joy
 ## K
-    K/DA
-    Kard (maybe)
-    Kep1er
-    Kim Sejeong
-    Kiss of Life
-    Kwon Eunbi
+- K/DA {dupes from idle}
+- Kard {instrumental}
+- Kep1er {dupes instrumentals}
+- Kim Sejeong
+- Kiss of Life
+- Kwon Eunbi
 ## L
-    Lapillus
-    Lee Chae Yeon
-    Lee Suhyun
-    Le Sserafim
-    Lisa
-    Loona (all versions, 1/3, yyxy, oec, solos)
-    Loossemble
+- Lapillus {dupes and instrumentals}
+- Lee Chae Yeon
+- Lee Suhyun
+- Le Sserafim {dupes}
+- Lisa
+- Loona {dupes and alt versions}
+- Loossemble
 ## M
-    Majors
-    Mamamoo
-    Mave:
-    Mimiirose
-    Min Kyunghoon (bibi)
-    Minnie
-    Misamo
-    Miyeon
-    Momoland
+- Majors
+- Mamamoo {dupes}
+- Mave:
+- Mimiirose
+- Min Kyunghoon
+- Minnie
+- Misamo
+- Miyeon
+- Momoland
 ## N
-    Nayeon
-    NCT 127 (kick it, cherry bomb?)
-    NCT U (make a wish, boss?)
-    NewJeans
-    Nmixx
+- Nayeon
+- NCT 127
+- NCT U 
+- NewJeans
+- Nmixx {instrumentals}
 ## O
-    Odd Eye Circle
-    Oh My Girl
+- Odd Eye Circle
 ## P
-    Pixy
-    Purple Kiss
+- Pixy
+- Purple Kiss
 ## Q
 ## R
-    Red Velvet
-    Red Velvet Irene & Seulgi
-    Rocket Punch
-    Rosé
+- Red Velvet {dupes}
+- Red Velvet Irene & Seulgi
+- Rocket Punch {alt verions}
+- Rosé
 ## S
-    Seulgi
-    Seventeen (CLAP)
-    Solar
-    Song Soo Woo
-    Sorn
-    Stayc
-    Stray Kids
-    Sunmi
+- Seulgi
+- Seventeen
+- Solar
+- Song Soo Woo
+- Sorn
+- Stayc {alt versions}
+- Stray Kids {dupes, alt versions}
+- Sunmi
 ## T
-    Taeyeon
-    Treasure (JikJin)
-    Tri.be
-    TripleS
-    True Damage
-    Twice
+- Taeyeon
+- Treasure
+- Tri.be {dupes, alt versions}
+- TripleS {alt versions}
+- True Damage
+- Twice {dupes, alt versions}
 ## U
 ## V
-    Viviz
+- Viviz
 ## W
-    Weeekly
-    Weki Meki
-    Wendy
-    Whee In
-    WJSN
-    WJSN the Black
-    Wonder Girls
+- Weeekly
+- Weki Meki {double check}
+- Wendy
+- Whee In
+- WJSN {alt versions}
+- WJSN the Black
+- Wonder Girls
 ## X
-    XG
+- XG
 ## Y
-    Yeeun
-    Yena
-    Yuju
-    Yuqi
+- Yeeun
+- Yena
+- Yuju
+- Yuqi
 ## Z
-    Zico (any song(the song name))
+- Zico

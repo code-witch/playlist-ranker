@@ -39,7 +39,7 @@ class API:
             self.convert_spotify_format_to_different_format(song)
             print(song)
 
-        # self.shuffle()
+        self.shuffle()
         # might not need to return it if just setting it
         return self.playlist 
 
@@ -54,6 +54,11 @@ class API:
                 # thefatrat
                 # lady gaga
                 # rich brian
+                # dua lipa
+                # anne-marie
+                # yellow claw
+                
+                # "".replace(' ', '').lower()
                 # if any of those
                 #   position += 1
                 # else
