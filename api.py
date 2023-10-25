@@ -52,6 +52,8 @@ class API:
                 # put these in a hash? check over them? or just use if?
                 # 88rising
                 # thefatrat
+                # daedo
+                # just b
                 # lady gaga
                 # rich brian
                 # dua lipa

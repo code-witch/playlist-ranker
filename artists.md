@@ -1,14 +1,14 @@
 # Artists 
 ## A
-- Aespa {dupes}
+- Aespa
 - Agust D
-- Alexa {dupes and alt versions} (extra artist check)
+- Alexa
 - Alice
 - Apink
 ## B
-- Bibi (extra artist check)
-- Billlie {dupes? instrumentals}
-- Blackpink {dupes}
+- Bibi 
+- Billlie 
+- Blackpink
 - BugAboo
 ## C
 - Cherry Bullet
@@ -21,14 +21,14 @@
 ## E
 - Enhypen
 - El7z Up
-- Everglow (extra artist check)
-- Exid {dupes? instrumentals}
+- Everglow
+- Exid 
 - Exo
 ## F
 - Fromis_9
 ## G
-- Gfriend {dupes}
-- G-Idle {dupes also kda?}
+- Gfriend
+- G-Idle
 - GOT the beat
 ## H
 - Huh Yunjin
@@ -37,39 +37,39 @@
 - Hyuna
 ## I
 - I.O.I
-- Itzy {dupes? instrumentals, english versions}
+- Itzy
 - IU
 - IVE
-- Iz*one {alt versions}
+- Iz*one
 ## J
 - Jamie
 - Jennie
-- Jeon Somi {dupes}
+- Jeon Somi
 - Jeon Soyeon
 - Jessi
 - Jihyo
-- Jini {alt version}
+- Jini
 - Jisoo
 - Jo Yuri
 - Joy
 ## K
-- K/DA {dupes from idle}
-- Kard {instrumental}
-- Kep1er {dupes instrumentals}
+- K/DA
+- Kard 
+- Kep1er 
 - Kim Sejeong
 - Kiss of Life
 - Kwon Eunbi
 ## L
-- Lapillus {dupes and instrumentals}
+- Lapillus
 - Lee Chae Yeon
 - Lee Suhyun
-- Le Sserafim {dupes}
+- Le Sserafim
 - Lisa
-- Loona {dupes and alt versions}
+- Loona 
 - Loossemble
 ## M
 - Majors
-- Mamamoo {dupes}
+- Mamamoo
 - Mave:
 - Mimiirose
 - Min Kyunghoon
@@ -82,7 +82,7 @@
 - NCT 127
 - NCT U 
 - NewJeans
-- Nmixx {instrumentals}
+- Nmixx 
 ## O
 - Odd Eye Circle
 ## P
@@ -90,9 +90,9 @@
 - Purple Kiss
 ## Q
 ## R
-- Red Velvet {dupes}
+- Red Velvet
 - Red Velvet Irene & Seulgi
-- Rocket Punch {alt verions}
+- Rocket Punch
 - Rosé
 ## S
 - Seulgi
@@ -100,25 +100,25 @@
 - Solar
 - Song Soo Woo
 - Sorn
-- Stayc {alt versions}
-- Stray Kids {dupes, alt versions}
+- Stayc 
+- Stray Kids
 - Sunmi
 ## T
 - Taeyeon
 - Treasure
-- Tri.be {dupes, alt versions}
-- TripleS {alt versions}
+- Tri.be 
+- TripleS 
 - True Damage
-- Twice {dupes, alt versions}
+- Twice 
 ## U
 ## V
 - Viviz
 ## W
 - Weeekly
-- Weki Meki {double check}
+- Weki Meki 
 - Wendy
 - Whee In
-- WJSN {alt versions}
+- WJSN 
 - WJSN the Black
 - Wonder Girls
 ## X
