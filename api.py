@@ -11,14 +11,13 @@ class API:
         self.current_song = None
         self.position = 0
 
-    def load_json(self,path,encoding='utf-8'):
-        with open(path,'r') as file:
-            f = file.read()
-            self.playlist = json.loads(f)
+    def load_json(self,path):
+        with open(path,'r',encoding='utf-8') as file:
+            self.playlist = json.loads(file.read())
 
-    def save_json(self,path,encoding='utf-8'):
-        with open(path, 'w') as file:
-            file.write(json.dumps(self.playlist,indent=4))
+    def save_json(self,path):
+        with open(path, 'w', encoding='utf-8') as file:
+            file.write(json.dumps(self.playlist,indent=4, ensure_ascii=False))
 
     def set_current_song(self):
         if self.current_song == None:
@@ -53,13 +52,13 @@ class API:
 
         for song in self.spotify_playlist:
             self.convert_spotify_format_to_different_format(song)
-            print(song)
+            # print(song)
 
         self.shuffle()
 
 
     def convert_spotify_format_to_different_format(self,song):
-        position = 0
+        index = 0
         excluded_artists = [
         '88rising',
         'thefatrat',
@@ -70,14 +69,14 @@ class API:
         'dua lipa',
         'anne-marie',
         'yellow claw'
-        ] # 7nl5BnMM9PZNSUXuJvm1b2
+        ]
         if len(song['artists']) > 1:
             for i in range(0,len(song['artists'])):
                 for artist in excluded_artists:
-                    if artist.replace(' ','').lower() == song['artists'][position]['name'].replace(' ','').lower():
-                        position += 1
+                    if artist.replace(' ','').lower() == song['artists'][index]['name'].replace(' ','').lower():
+                        index += 1
 
-        self.playlist.append(Song(song['uri'],song['name'],song['artists'][position]['name'],song['album']['name']).__dict__)
+        self.playlist.append(Song(song['uri'],song['name'],song['artists'][index]['name'],song['album']['name']).__dict__)
 
     def play_song(self,uri=None):
         self.sc.start_playback(uris=uri)
