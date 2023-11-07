@@ -28,20 +28,23 @@ class GUI:
         self.artist_entry = tk.Entry(GUI.root)
 
         # Buttons
-        self.play_button = tk.Button(GUI.root, text='Play Song', command=lambda: print('play'))
-        self.pause_button = tk.Button(GUI.root, text='Pause Song', command=lambda: print('pause'))
-        self.submit_button = tk.Button(GUI.root, text='Submit', command=lambda: print('submit'))
+        self.play_button = tk.Button(GUI.root, text='Play Song', command=lambda: print('play')) # plays current song
+        self.pause_button = tk.Button(GUI.root, text='Pause Song', command=lambda: print('pause')) # pauses music
+        self.submit_button = tk.Button(GUI.root, text='Submit', command=lambda: print('submit')) # gets next song
 
         # Misc
         self.notes = tk.Text(GUI.root, height=4, width=40)
 
 
+    def style(self):
+        pass
 
     def start(self):
         self.init_widgets()
         self.menus()
         self.song_info(None,None)
         self.categories()
+        self.style()
         GUI.root.config(menu=self.menu_bar)
         GUI.root.mainloop()
 
@@ -92,7 +95,9 @@ class GUI:
         GUI.file_path = filedialog.askopenfilename(initialdir='.')
         print(GUI.file_path)
         GUI.api.load_json(GUI.file_path)
-        print(GUI.api.playlist)
+        for song in GUI.api.playlist:
+            print(song)
+        # print(GUI.api.playlist)
 
     def song_info(self, title, artist):
         # TODO maybe instead of passing it in, get it from api?
