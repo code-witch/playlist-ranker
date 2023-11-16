@@ -1,7 +1,7 @@
 import json
 import random
 from song import Song
-# from category import Category
+from category import Category
 
 class API:
     def __init__(self,spotify_client):
@@ -10,6 +10,19 @@ class API:
         self.spotify_playlist = []
         self.current_song = None
         self.position = 0
+        self.categories = [
+            Category('Perfect', 10),
+            Category('Almost Perfect', 9),
+            Category('Very Good', 8),
+            Category('Good', 7),
+            Category('Fine', 6),
+            Category('PLACE HOLDER CHANGE ME', 5),
+            Category('Boring', 4),
+            Category('Havent Heard and Very Good', 3),
+            Category('Havent Heard and Good', 2),
+            Category('Havent Heard and Bad', 1),
+            Category('Bad', 0)
+        ]
 
     def load_json(self,path):
         with open(path,'r',encoding='utf-8') as file:
@@ -32,6 +45,11 @@ class API:
                 self.position = i
                 return self.playlist[i]
 
+    def get_category_by_name(self,name):
+        for category in self.categories:
+            if category.description.lower() == name.lower():
+                return category
+        return None
 
     def get_entire_spotify_playlist(self,playlist_id):
         offset = 0
