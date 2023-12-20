@@ -11,5 +11,5 @@ class Song:
         self.artist_guess = artist_guess
         self.notes = notes
 
-    def update_category(self, category):
-        self.category = category.__dict__
+    def __str__(self):
+        return f'URI: {self.uri} {self.title} by {self.artist} on {self.album} Rated: {self.category} Guessing: {self.title_guess} by {self.artist_guess} | Notes: {self.notes}'

@@ -12,6 +12,5 @@ scope = 'playlist-modify-public playlist-modify-private user-library-read user-m
 spot = Spotify(auth_manager=SpotifyOAuth(scope=scope, client_id=config['SPOTIFY_ID'], client_secret=config['SPOTIFY_SECRET'], redirect_uri=config['SPOTIFY_URI']))
 
 gui = GUI(API(spot))
-# TODO load json if exists
 
 gui.start()
