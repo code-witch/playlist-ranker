@@ -10,7 +10,6 @@ class GUI:
         GUI.api = api
         GUI.root = tk.Tk()
         GUI.root.title('playlist ranker')
-        # GUI.root.geometry('500x500')
 
     def init_widgets(self):
         # Song Info
@@ -91,7 +90,6 @@ class GUI:
 
         GUI.api.current_song = None
         GUI.api.set_current_song()
-        # print("CURRENT SONG", self.api.current_song)
 
     def song_info(self):
         if GUI.api.current_song == None:
@@ -146,8 +144,8 @@ class GUI:
         tk.Button(popup, text='Submit', command=lambda: self.get_spotify_playlist(popup,playlist_id_entry.get())).pack()
     
     def get_spotify_playlist(self,popup,playlist_id):
-        popup.destroy()
         GUI.api.get_entire_spotify_playlist(playlist_id)
+        popup.destroy()
 
     def enable_guess_boxes(self):
         self.title_guess.grid(column=1,row=0)

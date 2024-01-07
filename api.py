@@ -77,6 +77,8 @@ class API:
                 break
 
     def get_entire_spotify_playlist(self,playlist_id):
+        self.playlist = []
+        self.spotify_playlist = []
         offset = 0
         total = 0
         limit = 100
@@ -92,7 +94,6 @@ class API:
                 offset += total - offset
                 continue
             break
-        self.playlist = []
         for song in self.spotify_playlist:
             self.playlist.append(self.convert_spotify_format_to_different_format(song))
 
@@ -122,7 +123,6 @@ class API:
         self.sc.start_playback(uris=uri)
 
     def stop_song(self):
-        # TODO maybe add var to key track of play time
         self.sc.pause_playback()
 
     def shuffle(self):
