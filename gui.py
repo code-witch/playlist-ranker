@@ -32,6 +32,7 @@ class GUI:
         self.notes = tk.Text(GUI.root, height=4, width=40)
         self.option_dropdown = ttk.Combobox(GUI.root,values=self.api.categories,width=30)
         self.option_dropdown.set(self.api.categories[-1])
+        self.info = tk.Label(GUI.root, text='No Playlist Selected')
 
     def style(self):
         pass
@@ -42,6 +43,7 @@ class GUI:
         self.enable_guess_boxes()
         self.option_dropdown.grid(columnspan=3, column=0, row=2)
         self.notes_label.grid(column=0, row=3)
+        self.info.grid(column=2, row=3)
         self.notes.grid(columnspan=3, column=0, row=4)
         self.play_button.grid(column=0, row=5)
         self.pause_button.grid(column=1, row=5)
@@ -85,11 +87,13 @@ class GUI:
         GUI.file_path = filedialog.askopenfilename(initialdir='.',filetypes=(('Json File', '*.json'),))
         print('Loading file from:', GUI.file_path)
         GUI.api.load_json(GUI.file_path)
-        for song in GUI.api.playlist:
-            print(song)
+        # for song in GUI.api.playlist:
+        #     print(song)
+        print(f'loaded {len(GUI.api.playlist)} song{"" if len(GUI.api.playlist) == 1 else "s"}')
 
         GUI.api.current_song = None
         GUI.api.set_current_song()
+        self.info['text'] = f'Song {GUI.api.position + 1} / {len(GUI.api.playlist)}'
 
     def song_info(self):
         if GUI.api.current_song == None:
@@ -112,13 +116,13 @@ class GUI:
 
         # update everything
         GUI.api.update_song(GUI.api.current_song)
-        print(GUI.api.current_song)
+        # print(GUI.api.current_song)
         print(f'{title} by {artist} Rank: {category.__dict__}')
         self.add_song_to_temp_file(GUI.api.current_song)
         
         # change song 
         GUI.api.set_current_song()
-        print(GUI.api.current_song)
+        # print(GUI.api.current_song)
 
         # clear guess entries after submitting
         self.title_entry.delete(0, 'end')
